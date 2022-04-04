@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. Default">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="02. Client">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="03. MainApp">
+      <UniqueIdentifier>{98bbac90-c815-4249-bd95-0de101cb62bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Level">
+      <UniqueIdentifier>{e0a40107-060f-400a-b42a-7a07fa3bdd82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject">
+      <UniqueIdentifier>{f233b3d0-4c6d-4466-bd19-eda9b83b5fd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Defines">
+      <UniqueIdentifier>{0c146442-ed9b-4efa-87bb-66c7ea2d6ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Level\00. Start">
+      <UniqueIdentifier>{812de7c9-d91d-4115-a7f2-1fe5ca068a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Level\01. Loading">
+      <UniqueIdentifier>{44cb1a1a-9eb2-4317-8a5b-efbdea5d0ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Level\01. Loading\00. Loader">
+      <UniqueIdentifier>{b9b901fe-aa14-494a-9aec-1ae0395fddd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Level\02. Main">
+      <UniqueIdentifier>{e98d156d-3a81-4698-91f1-0bf1a6254ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Level\01. Loading\01. Loading">
+      <UniqueIdentifier>{b5cb22f9-19b5-461c-88aa-893c26c0926a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Shaders">
+      <UniqueIdentifier>{e3828477-ce2d-4f73-93cc-bb61ed4476a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\01. SkyBox">
+      <UniqueIdentifier>{9ed48409-e7a8-478e-8f68-3a5d957b1148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\03. Player">
+      <UniqueIdentifier>{147ac656-fd23-4b88-830f-71dad3409b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\00. Camera">
+      <UniqueIdentifier>{13b6136e-1c8e-4496-8156-581aca47ac41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\02. Terrain">
+      <UniqueIdentifier>{3817777d-1021-409a-be90-af5bb670beea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. System">
+      <UniqueIdentifier>{79d67a91-eb46-46ba-a386-8d09379fc73b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. System\00. MainFrame">
+      <UniqueIdentifier>{57d3e9f9-a5b4-4c23-bd0e-a57dc0f819e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\04. TestObject">
+      <UniqueIdentifier>{38f7c4b8-69b2-427f-9427-a26ef7d8f353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. System\01. ThirdParty">
+      <UniqueIdentifier>{44b7638f-23f6-4c55-ab75-eb2a3559af5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. System\01. ThirdParty\00. ImGui">
+      <UniqueIdentifier>{39be4981-9c7b-4a7b-91b9-59b14c83e956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. System\01. ThirdParty\01. Fmod">
+      <UniqueIdentifier>{ac5f4ed4-22cb-4d49-8373-1bfacc8e9131}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>00. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>00. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>00. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>01. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>00. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>01. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainApp.h">
+      <Filter>03. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Main.h">
+      <Filter>04. Level\02. Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Start.h">
+      <Filter>04. Level\00. Start</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>04. Level\01. Loading\01. Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Loader.h">
+      <Filter>04. Level\01. Loading\00. Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SkyBox.h">
+      <Filter>05. GameObject\01. SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Free.h">
+      <Filter>05. GameObject\00. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Terrain.h">
+      <Filter>05. GameObject\02. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\ImGui\imconfig.h">
+      <Filter>07. System\01. ThirdParty\00. ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\ImGui\imgui.h">
+      <Filter>07. System\01. ThirdParty\00. ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\ImGui\imgui_impl_dx9.h">
+      <Filter>07. System\01. ThirdParty\00. ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\ImGui\imgui_impl_win32.h">
+      <Filter>07. System\01. ThirdParty\00. ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\ImGui\imgui_internal.h">
+      <Filter>07. System\01. ThirdParty\00. ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\ImGui\imstb_rectpack.h">
+      <Filter>07. System\01. ThirdParty\00. ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\ImGui\imstb_textedit.h">
+      <Filter>07. System\01. ThirdParty\00. ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\ImGui\imstb_truetype.h">
+      <Filter>07. System\01. ThirdParty\00. ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player.h">
+      <Filter>05. GameObject\03. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainFrame.h">
+      <Filter>07. System\00. MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sphere.h">
+      <Filter>05. GameObject\04. TestObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>02. Client</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>00. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MainApp.cpp">
+      <Filter>03. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Main.cpp">
+      <Filter>04. Level\02. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Start.cpp">
+      <Filter>04. Level\00. Start</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>04. Level\01. Loading\01. Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loader.cpp">
+      <Filter>04. Level\01. Loading\00. Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SkyBox.cpp">
+      <Filter>05. GameObject\01. SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Free.cpp">
+      <Filter>05. GameObject\00. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Terrain.cpp">
+      <Filter>05. GameObject\02. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\ImGui\imgui.cpp">
+      <Filter>07. System\01. ThirdParty\00. ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\ImGui\imgui_demo.cpp">
+      <Filter>07. System\01. ThirdParty\00. ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\ImGui\imgui_draw.cpp">
+      <Filter>07. System\01. ThirdParty\00. ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\ImGui\imgui_impl_dx9.cpp">
+      <Filter>07. System\01. ThirdParty\00. ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\ImGui\imgui_impl_win32.cpp">
+      <Filter>07. System\01. ThirdParty\00. ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\ImGui\imgui_tables.cpp">
+      <Filter>07. System\01. ThirdParty\00. ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\ImGui\imgui_widgets.cpp">
+      <Filter>07. System\01. ThirdParty\00. ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player.cpp">
+      <Filter>05. GameObject\03. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MainFrame.cpp">
+      <Filter>07. System\00. MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sphere.cpp">
+      <Filter>05. GameObject\04. TestObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>00. Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>00. Default</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>00. Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_SkyBox.hlsl">
+      <Filter>06. Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Terrain.hlsl">
+      <Filter>06. Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Mesh.hlsl">
+      <Filter>06. Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
