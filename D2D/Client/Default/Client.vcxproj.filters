@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. Default">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. Headers">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="02. Client">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="03. MainApp">
+      <UniqueIdentifier>{40c3922a-eb3a-4bbc-9b3f-97525820b466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Level">
+      <UniqueIdentifier>{797fd86f-8e8a-4c04-99b3-1c012023bf91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject">
+      <UniqueIdentifier>{ea075180-ed06-4aec-baf5-87b6a0fcca82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Component">
+      <UniqueIdentifier>{94e22d89-34ae-43bd-ba29-254bc2fc662d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. Graphic_Device">
+      <UniqueIdentifier>{d8496804-5127-431e-a44c-50e592333ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09. SuperClass">
+      <UniqueIdentifier>{d28b1831-30a3-4d1a-974f-2a072900a23a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Utility">
+      <UniqueIdentifier>{b7f04bb1-2a31-4bb3-8113-a14be4d682d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Utility\01. Timer">
+      <UniqueIdentifier>{ba2eb63c-4b04-4426-a6bb-791763903e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Utility\00. Input">
+      <UniqueIdentifier>{618e183a-4d78-4728-accf-62918b998123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Utility\01. Timer\00. Manager">
+      <UniqueIdentifier>{11cb67d3-4390-4e10-a258-b45f8791941b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Component\01. Mother">
+      <UniqueIdentifier>{562c0388-4220-44ea-872e-c27c24e287e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\00. Manager">
+      <UniqueIdentifier>{d8668526-62d9-4a5a-ba4b-d4b6e2af33d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\01. Mother">
+      <UniqueIdentifier>{2686b836-f527-4ceb-973b-56cd8bf10179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\02. Layer">
+      <UniqueIdentifier>{22d63542-4a1d-4b7c-a3e3-d72ede22be5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\03. Player">
+      <UniqueIdentifier>{bdba70cb-89ae-4dba-8e67-6c7ad3e56b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Utility\02. Renderer">
+      <UniqueIdentifier>{3b09779d-d985-487b-b265-41393fac15ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Component\02. Transform">
+      <UniqueIdentifier>{14ba0238-9ebe-4dea-8dc8-d40ae50c6277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Component\03. Collider">
+      <UniqueIdentifier>{6aca6449-6f7d-4222-86a2-2d661fa43dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Component\04. Shader">
+      <UniqueIdentifier>{0d44599f-cf25-4ffb-86c8-da3836381913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Component\05. Texture">
+      <UniqueIdentifier>{c1cab73e-2ac7-40a2-b9f9-46ede7a835e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Level\04. Result">
+      <UniqueIdentifier>{1fe2b93f-85df-4dd0-9c2c-3b52372666c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Level\03. GamePlay">
+      <UniqueIdentifier>{3645817a-a562-4eb8-96a3-4a5d29862ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Level\02. Main">
+      <UniqueIdentifier>{f6b7cc39-83cd-4ded-91c1-30af39923b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Level\01. Mother">
+      <UniqueIdentifier>{d9ff427a-7501-47ce-b20b-0dd4e8c2291b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Level\00. Manager">
+      <UniqueIdentifier>{1b5c33ab-6c86-4c75-9b32-6bc020b3f16d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Utility\03. GameInstance">
+      <UniqueIdentifier>{c66d9cff-a0a9-4fc3-9dd1-f5b7875463ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10. Shaders">
+      <UniqueIdentifier>{fecbac8e-67aa-4057-a34b-84b4bed8fa62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Component\06. VIBuffer">
+      <UniqueIdentifier>{f04b5015-cca0-41c5-9e48-c049a32313f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Utility\04. Pipeline">
+      <UniqueIdentifier>{08d19c8a-2be4-4561-8f94-3982128e2624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11. ImGui">
+      <UniqueIdentifier>{31063e6b-460c-4fe8-9ac7-1ba45d7db100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\04. Block">
+      <UniqueIdentifier>{461d28c3-c610-4d2d-90c1-ce0b89a75fff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Utility\05. Random">
+      <UniqueIdentifier>{ff2ac7b6-ff15-44f8-988f-1234b56428ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\06. BackGround">
+      <UniqueIdentifier>{07325506-c9d4-4074-ae42-54d65be3e142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\05. Grass">
+      <UniqueIdentifier>{d93aebf5-22e2-4fd8-99e0-8e2465f7d3d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\07. BoundingBox">
+      <UniqueIdentifier>{aa3696a8-2ef0-45de-b909-1b8a3fa96bbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\08. Title">
+      <UniqueIdentifier>{bbb48373-2fb4-49a2-9e52-519d0e652f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\09. Result">
+      <UniqueIdentifier>{72767e47-156c-4daa-8893-0a843a6adfda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\10. Mokoko">
+      <UniqueIdentifier>{5bff4b5a-71bb-4d05-8a05-7f5882a34d90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12. Fmod">
+      <UniqueIdentifier>{e223baf9-edad-441b-b839-88670304c0ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\11. UI">
+      <UniqueIdentifier>{1e2a084d-531a-4baa-9c54-59a277928d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Component\06. VIBuffer\00. Mother">
+      <UniqueIdentifier>{f4524140-34ef-4db8-bca5-acbf76931827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Component\06. VIBuffer\01. Rect">
+      <UniqueIdentifier>{0a6ce3ce-46fb-4ae3-80c7-d4d6ab281d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. PointInstancing">
+      <UniqueIdentifier>{9cb6c503-b749-4e88-bc04-3532a6f4337c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. PointInstancing\12. Point">
+      <UniqueIdentifier>{dc0e1b07-3806-4d61-9ed1-78c6afef9a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. PointInstancing\02. Point">
+      <UniqueIdentifier>{0c199c36-8040-4f5e-a4de-826bff4b77de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\11. UI\00. Manager">
+      <UniqueIdentifier>{4dbe652d-6c6c-4152-b842-f850fc46eaff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\11. UI\01. UI">
+      <UniqueIdentifier>{ca734fe7-fb3d-4909-9dee-a71980348041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Utility\01. Timer\01. Timer">
+      <UniqueIdentifier>{400c70b1-1029-43d9-bdb3-94f0d604b7cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12. Fmod\00. Manager">
+      <UniqueIdentifier>{881946f5-9501-4496-a2aa-7c6867f48f58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12. Fmod\01. Source">
+      <UniqueIdentifier>{2dd8f7b6-77a2-48a2-a19b-6c8760a86fd6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>00. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>00. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>00. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>01. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\key_Manager.h">
+      <Filter>07. Utility\00. Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Graphic_Device.h">
+      <Filter>08. Graphic_Device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Base.h">
+      <Filter>09. SuperClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Define.h">
+      <Filter>01. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Macro.h">
+      <Filter>01. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Function.h">
+      <Filter>01. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Typedef.h">
+      <Filter>01. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>02. Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainApp.h">
+      <Filter>03. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Timer_Manager.h">
+      <Filter>07. Utility\01. Timer\00. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Renderer.h">
+      <Filter>07. Utility\02. Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Component.h">
+      <Filter>06. Component\01. Mother</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GameObject.h">
+      <Filter>05. GameObject\01. Mother</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Layer.h">
+      <Filter>05. GameObject\02. Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GameObject_Manager.h">
+      <Filter>05. GameObject\00. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Shader.h">
+      <Filter>06. Component\04. Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Texture.h">
+      <Filter>06. Component\05. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Result.h">
+      <Filter>04. Level\04. Result</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GamePlay.h">
+      <Filter>04. Level\03. GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Main.h">
+      <Filter>04. Level\02. Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level.h">
+      <Filter>04. Level\01. Mother</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Manager.h">
+      <Filter>04. Level\00. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BackGround.h">
+      <Filter>05. GameObject\06. BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GameInstance.h">
+      <Filter>07. Utility\03. GameInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Pipeline.h">
+      <Filter>07. Utility\04. Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Transform.h">
+      <Filter>06. Component\02. Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player.h">
+      <Filter>05. GameObject\03. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Grass.h">
+      <Filter>05. GameObject\05. Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Random.h">
+      <Filter>07. Utility\05. Random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Block.h">
+      <Filter>05. GameObject\04. Block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Collider.h">
+      <Filter>06. Component\03. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\ImGui\imconfig.h">
+      <Filter>11. ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\ImGui\imgui.h">
+      <Filter>11. ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\ImGui\imgui_impl_dx9.h">
+      <Filter>11. ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\ImGui\imgui_impl_win32.h">
+      <Filter>11. ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\ImGui\imgui_internal.h">
+      <Filter>11. ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\ImGui\imstb_rectpack.h">
+      <Filter>11. ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\ImGui\imstb_textedit.h">
+      <Filter>11. ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\ImGui\imstb_truetype.h">
+      <Filter>11. ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Box.h">
+      <Filter>05. GameObject\07. BoundingBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Title.h">
+      <Filter>05. GameObject\08. Title</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Result.h">
+      <Filter>05. GameObject\09. Result</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Mokoko.h">
+      <Filter>05. GameObject\10. Mokoko</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\VIBuffer_Point.h">
+      <Filter>99. PointInstancing\02. Point</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\VIBuffer_Rect.h">
+      <Filter>06. Component\06. VIBuffer\01. Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\VIBuffer.h">
+      <Filter>06. Component\06. VIBuffer\00. Mother</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Point.h">
+      <Filter>99. PointInstancing\12. Point</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Manager.h">
+      <Filter>05. GameObject\11. UI\00. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Timer.h">
+      <Filter>07. Utility\01. Timer\01. Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI.h">
+      <Filter>05. GameObject\11. UI\01. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sound_Manager.h">
+      <Filter>12. Fmod\00. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\Fmod32\fmod.h">
+      <Filter>12. Fmod\01. Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\Fmod32\fmod.hpp">
+      <Filter>12. Fmod\01. Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\Fmod32\fmod_codec.h">
+      <Filter>12. Fmod\01. Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\Fmod32\fmod_dsp.h">
+      <Filter>12. Fmod\01. Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\Fmod32\fmod_errors.h">
+      <Filter>12. Fmod\01. Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\Fmod32\fmod_memoryinfo.h">
+      <Filter>12. Fmod\01. Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\Fmod32\fmod_output.h">
+      <Filter>12. Fmod\01. Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>00. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>02. Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\key_Manager.cpp">
+      <Filter>07. Utility\00. Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Base.cpp">
+      <Filter>09. SuperClass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Graphic_Device.cpp">
+      <Filter>08. Graphic_Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MainApp.cpp">
+      <Filter>03. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Timer_Manager.cpp">
+      <Filter>07. Utility\01. Timer\00. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Renderer.cpp">
+      <Filter>07. Utility\02. Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Component.cpp">
+      <Filter>06. Component\01. Mother</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GameObject.cpp">
+      <Filter>05. GameObject\01. Mother</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Layer.cpp">
+      <Filter>05. GameObject\02. Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GameObject_Manager.cpp">
+      <Filter>05. GameObject\00. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Shader.cpp">
+      <Filter>06. Component\04. Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Texture.cpp">
+      <Filter>06. Component\05. Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Result.cpp">
+      <Filter>04. Level\04. Result</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GamePlay.cpp">
+      <Filter>04. Level\03. GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Main.cpp">
+      <Filter>04. Level\02. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level.cpp">
+      <Filter>04. Level\01. Mother</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Manager.cpp">
+      <Filter>04. Level\00. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BackGround.cpp">
+      <Filter>05. GameObject\06. BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GameInstance.cpp">
+      <Filter>07. Utility\03. GameInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Pipeline.cpp">
+      <Filter>07. Utility\04. Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Transform.cpp">
+      <Filter>06. Component\02. Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player.cpp">
+      <Filter>05. GameObject\03. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Grass.cpp">
+      <Filter>05. GameObject\05. Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Random.cpp">
+      <Filter>07. Utility\05. Random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Block.cpp">
+      <Filter>05. GameObject\04. Block</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Collider.cpp">
+      <Filter>06. Component\03. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\ImGui\imgui.cpp">
+      <Filter>11. ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\ImGui\imgui_demo.cpp">
+      <Filter>11. ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\ImGui\imgui_draw.cpp">
+      <Filter>11. ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\ImGui\imgui_impl_dx9.cpp">
+      <Filter>11. ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\ImGui\imgui_impl_win32.cpp">
+      <Filter>11. ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\ImGui\imgui_tables.cpp">
+      <Filter>11. ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\ImGui\imgui_widgets.cpp">
+      <Filter>11. ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Box.cpp">
+      <Filter>05. GameObject\07. BoundingBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Title.cpp">
+      <Filter>05. GameObject\08. Title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Result.cpp">
+      <Filter>05. GameObject\09. Result</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Mokoko.cpp">
+      <Filter>05. GameObject\10. Mokoko</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\VIBuffer_Point.cpp">
+      <Filter>99. PointInstancing\02. Point</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\VIBuffer_Rect.cpp">
+      <Filter>06. Component\06. VIBuffer\01. Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\VIBuffer.cpp">
+      <Filter>06. Component\06. VIBuffer\00. Mother</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Point.cpp">
+      <Filter>99. PointInstancing\12. Point</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Manager.cpp">
+      <Filter>05. GameObject\11. UI\00. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Timer.cpp">
+      <Filter>07. Utility\01. Timer\01. Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI.cpp">
+      <Filter>05. GameObject\11. UI\01. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sound_Manager.cpp">
+      <Filter>12. Fmod\00. Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>00. Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>00. Default</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>00. Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Rect.hlsl">
+      <Filter>10. Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Point.hlsl">
+      <Filter>99. PointInstancing</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
