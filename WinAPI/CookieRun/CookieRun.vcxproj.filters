@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. Default">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. Client">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="04. Object">
+      <UniqueIdentifier>{b05ec47b-b254-40d9-a3f1-271a104b7099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Header">
+      <UniqueIdentifier>{45f6aef6-ae8d-4782-9c0d-049ff69201d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager">
+      <UniqueIdentifier>{e0f368cf-6ec3-4473-9ba9-bbe98ea873a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04.01 - MotherClass">
+      <UniqueIdentifier>{717aff0b-6151-4fdc-9921-3df8b0dff81d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04.02 - Player">
+      <UniqueIdentifier>{7d48858a-636c-4e00-9b3a-80031b1bef90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Bitmap">
+      <UniqueIdentifier>{b6cb80dd-b8a6-4f1b-acee-19d0670ccf41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Scene">
+      <UniqueIdentifier>{0c9c5f65-d8ba-4cdf-acdd-92fa3e67159f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Scene\06.02 - Loading">
+      <UniqueIdentifier>{d01220e2-0efa-4cd8-9b9d-a65f3271ddbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Scene\06.01 - MotherClass">
+      <UniqueIdentifier>{fa5ddffd-a7c8-458d-b5bf-3e446300c0f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Scene\06.03 - Lobby">
+      <UniqueIdentifier>{9e82aff2-66bf-4ee1-b479-b6e8a0af5bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04.03 - Ground">
+      <UniqueIdentifier>{42bfcec5-d521-45b1-9b78-b5b0a5967d4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\03.01 - GameObject_Manager">
+      <UniqueIdentifier>{bf64986a-4c8d-415c-97ce-bde4b98a8a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\03.02 - Bitmap_Manager">
+      <UniqueIdentifier>{5774519e-e44b-4754-81d1-56c43ebb4d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\03.03 - Scene_Manager">
+      <UniqueIdentifier>{d92f6dd8-1765-4308-82ec-24bf62538af2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\03.04 - Key_Manager">
+      <UniqueIdentifier>{d14baa2b-ceb2-47da-8dc8-4415bb1271de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. MainApp">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="06. Scene\06.04 - StageLoading">
+      <UniqueIdentifier>{898e2b9f-ef66-4163-bd9e-34522f6e8df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Scene\06.Temp - Render_Test">
+      <UniqueIdentifier>{6da2443a-2ab0-4fe2-866b-3ccd29123aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04.05 - BackGround">
+      <UniqueIdentifier>{3dbef687-fb8a-42e1-9430-a6f0498613da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04.07 - Obstacles">
+      <UniqueIdentifier>{5081b31b-73bc-4449-bca2-908346166ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04.08 - Items">
+      <UniqueIdentifier>{a792aa5a-f515-4054-927e-f7430783fe80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04.09 - Jelly">
+      <UniqueIdentifier>{06cef6b4-3bd8-4478-b698-211eaf86f74b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04.10 - UI">
+      <UniqueIdentifier>{96e63c13-aa16-4343-bcd2-e9813572ddf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04.11 - Pet">
+      <UniqueIdentifier>{110dd004-db63-4a0f-ab56-703b53829808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04.04 - Ground%28BonusTIme%29">
+      <UniqueIdentifier>{7c71b183-fcb4-4460-be88-fd09ced65c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04.06 - BackGround%28BonusTIme%29">
+      <UniqueIdentifier>{23034802-3dae-42b6-82af-ed2c177ab69c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04.12 - Effect">
+      <UniqueIdentifier>{40b7a66e-bd30-4eab-b44d-36f3f3acfc25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Scene\06.06 - Stage">
+      <UniqueIdentifier>{84870f3d-c412-43f9-9b89-d261ef55804b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Scene\06.05 - CookieSelect">
+      <UniqueIdentifier>{47baaec6-16d8-45fc-a334-90b28a72c108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04.13 - Score">
+      <UniqueIdentifier>{f985ec99-2c2c-497e-abbf-ae9ca67d2ab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Scene\06.07 - Result">
+      <UniqueIdentifier>{bdda369b-2de8-4355-9325-178fc4d6ac99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Scene\06.08 - Pause">
+      <UniqueIdentifier>{9f05c3dc-069a-4e0f-85d3-c4490ce6736a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\03.05 - Create_Manager">
+      <UniqueIdentifier>{1c79e3ed-7703-4414-b71a-63e0b7f61544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\03.06 - Inventory_Manager">
+      <UniqueIdentifier>{c3368aec-e977-48bd-b00b-733ded4d1502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04.14 - Flag">
+      <UniqueIdentifier>{1750e99a-ffc2-4c0c-b520-e42744c60024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\03.07 - Sound_Manager">
+      <UniqueIdentifier>{6871a2e3-918d-4a9f-b1f9-3ff5f4a82bde}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>00. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>00. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>00. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CookieRun.h">
+      <Filter>01. Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Const.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Template.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MainApp.h">
+      <Filter>02. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>04. Object\04.01 - MotherClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>04. Object\04.02 - Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectManager.h">
+      <Filter>03. Manager\03.01 - GameObject_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapManager.h">
+      <Filter>03. Manager\03.02 - Bitmap_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBitmap.h">
+      <Filter>05. Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>06. Scene\06.01 - MotherClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading.h">
+      <Filter>06. Scene\06.02 - Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="Lobby.h">
+      <Filter>06. Scene\06.03 - Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>06. Scene\06.06 - Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>03. Manager\03.03 - Scene_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>03. Manager\03.04 - Key_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>04. Object\04.03 - Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>04. Object\04.05 - BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>04. Object\04.08 - Items</Filter>
+    </ClInclude>
+    <ClInclude Include="StageLoading.h">
+      <Filter>06. Scene\06.04 - StageLoading</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>04. Object\04.10 - UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacles.h">
+      <Filter>04. Object\04.07 - Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="Jelly.h">
+      <Filter>04. Object\04.09 - Jelly</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTest.h">
+      <Filter>06. Scene\06.Temp - Render_Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>01. Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Pet.h">
+      <Filter>04. Object\04.11 - Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground_BT.h">
+      <Filter>04. Object\04.04 - Ground%28BonusTIme%29</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround_BT.h">
+      <Filter>04. Object\04.06 - BackGround%28BonusTIme%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>04. Object\04.12 - Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CookieSelect.h">
+      <Filter>06. Scene\06.05 - CookieSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>04. Object\04.13 - Score</Filter>
+    </ClInclude>
+    <ClInclude Include="Result.h">
+      <Filter>06. Scene\06.07 - Result</Filter>
+    </ClInclude>
+    <ClInclude Include="Pause.h">
+      <Filter>06. Scene\06.08 - Pause</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateManager.h">
+      <Filter>03. Manager\03.05 - Create_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryManager.h">
+      <Filter>03. Manager\03.06 - Inventory_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Flag.h">
+      <Filter>04. Object\04.14 - Flag</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>03. Manager\03.07 - Sound_Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CookieRun.cpp">
+      <Filter>01. Client</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>01. Client</Filter>
+    </ClCompile>
+    <ClCompile Include="MainApp.cpp">
+      <Filter>02. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>04. Object\04.01 - MotherClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>04. Object\04.02 - Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectManager.cpp">
+      <Filter>03. Manager\03.01 - GameObject_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapManager.cpp">
+      <Filter>03. Manager\03.02 - Bitmap_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBitmap.cpp">
+      <Filter>05. Bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>06. Scene\06.01 - MotherClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading.cpp">
+      <Filter>06. Scene\06.02 - Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="Lobby.cpp">
+      <Filter>06. Scene\06.03 - Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>06. Scene\06.06 - Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>03. Manager\03.03 - Scene_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>03. Manager\03.04 - Key_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>04. Object\04.03 - Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>04. Object\04.05 - BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>04. Object\04.08 - Items</Filter>
+    </ClCompile>
+    <ClCompile Include="StageLoading.cpp">
+      <Filter>06. Scene\06.04 - StageLoading</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>04. Object\04.10 - UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacles.cpp">
+      <Filter>04. Object\04.07 - Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="Jelly.cpp">
+      <Filter>04. Object\04.09 - Jelly</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTest.cpp">
+      <Filter>06. Scene\06.Temp - Render_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Pet.cpp">
+      <Filter>04. Object\04.11 - Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground_BT.cpp">
+      <Filter>04. Object\04.04 - Ground%28BonusTIme%29</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround_BT.cpp">
+      <Filter>04. Object\04.06 - BackGround%28BonusTIme%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>04. Object\04.12 - Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CookieSelect.cpp">
+      <Filter>06. Scene\06.05 - CookieSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>04. Object\04.13 - Score</Filter>
+    </ClCompile>
+    <ClCompile Include="Result.cpp">
+      <Filter>06. Scene\06.07 - Result</Filter>
+    </ClCompile>
+    <ClCompile Include="Pause.cpp">
+      <Filter>06. Scene\06.08 - Pause</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateManager.cpp">
+      <Filter>03. Manager\03.05 - Create_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryManager.cpp">
+      <Filter>03. Manager\03.06 - Inventory_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Flag.cpp">
+      <Filter>04. Object\04.14 - Flag</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>03. Manager\03.07 - Sound_Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CookieRun.rc">
+      <Filter>00. Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>00. Default</Filter>
+    </Image>
+    <Image Include="CookieRun.ico">
+      <Filter>00. Default</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
