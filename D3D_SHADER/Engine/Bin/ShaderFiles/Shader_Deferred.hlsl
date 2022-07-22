@@ -95,8 +95,8 @@ sampler OutlineSampler = sampler_state
 
 struct PS_IN
 {
-	float4 vPos   : POSITION;
-	float2 vTexUV : TEXCOORD0;
+	float4 vPos        : POSITION;
+	float2 vTexUV      : TEXCOORD0;
 };
 
 struct PS_OUT_LIGHTACC
@@ -135,7 +135,8 @@ PS_OUT_LIGHTACC PS_MAIN_LIGHT_DIRECTIONAL(PS_IN In)
 		Out.vShade   = g_vLightDiffuse * max(dot(normalize(g_vLightDir) * -1.f, vNormal), 0.f) + (g_vLightAmbient * g_vMtrlAmbient);
 		Out.vShade.a = 1.f;
 
-		Out.vSpecular.rgb = (g_vLightSpecular * g_vMtrlSpecular) * pow(max(dot(normalize(vReflect) * -1.f, vLook), 0.f), 30.f);
+		Out.vSpecular = (g_vLightSpecular * g_vMtrlSpecular) * pow(max(dot(normalize(vReflect) * -1.f, vLook), 0.f), 30.f);
+
 		Out.vSpecular.a = 1.f;
 	}
 	else
@@ -174,8 +175,7 @@ PS_OUT_BLEND PS_MAIN_BLEND(PS_IN In)
 	}
 
 	vector vDepth       = tex2D(DepthSampler, In.vTexUV);
-
-	float fViewZ = In.vPos.w * 300.f;
+	float fViewZ = vDepth.r * 300.f;
 
 	vector vPos = vector(0.f, 0.f, 0.f, 0.f);
 
@@ -264,7 +264,7 @@ PS_OUT_LIGHTACC PS_MAIN_LIGHT_POINT(PS_IN In)
 		Out.vShade = (g_vLightDiffuse * max(dot(normalize(g_vLightDir) * -1.f, vNormal), 0.f) + (g_vLightAmbient * g_vMtrlAmbient)) * fAtt;
 		Out.vShade.a = 1.f;
 
-		Out.vSpecular.rgb = ((g_vLightSpecular * g_vMtrlSpecular) * pow(max(dot(normalize(vReflect) * -1.f, vLook), 0.f), 30.f)) * fAtt;
+		Out.vSpecular = ((g_vLightSpecular * g_vMtrlSpecular) * pow(max(dot(normalize(vReflect) * -1.f, vLook), 0.f), 30.f)) * fAtt;
 		Out.vSpecular.a = 1.f;
 	}
 	else
